@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HeaderStyle.css";
  
 function Header() {
@@ -32,9 +33,8 @@ function Header() {
                 <div class="container">
                     <div class="row row-sm align-items-center">
                         <div class="col-lg-2 col-md-3 col-6">
-                            <a href="http://bootstrap-ecommerce.com" class="brand-wrap">
-                            <img src={require("../../assets/images/SUSUSTORE1.png")}style={{ width: '150px',height:'100px' }} className="img-fluid1"/>
-                            </a>
+                            <img src={require("../../assets/images/Logo1.jpg")}style={{ width: '150px',height:'100px' }} className="img-fluid1"/>   <Link to ="/" className="brand-wrap"></Link>
+                            <Link/>
                             {/* <!-- brand-wrap.// --> */}
                         </div>
                         <div class="col-lg col-sm col-md col-6 flex-grow-0">
@@ -85,8 +85,8 @@ function Header() {
                                                 <i class="icon-sm rounded-circle fa fa-user"></i>
                                             </div>
                                             <div class="text">
-                                                <small class="text-muted">Sign in | Join</small>
-                                                <div>My account <i class="fa fa-caret-down"></i> </div>
+                                                <small class="text-muted">Signup| Login</small>
+                                                <div>Tài khoản <i class="fa fa-caret-down"></i> </div>
                                             </div>
                                         </div>
                                     </a>

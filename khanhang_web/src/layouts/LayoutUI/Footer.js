@@ -15,10 +15,10 @@ function Footer() {
                             <article class="mr-md-4">
                                 <h5 class="title">Về Chúng Tôi</h5>
                                 <ul class="list-icon">
-                                    <li> <i class="icon fa fa-map-marker"> </i>542 Fake Street, Cityname 10021 Netheerlends </li>
-                                    <li> <i class="icon fa fa-envelope"> </i> info@example.com</li>
-                                    <li> <i class="icon fa fa-phone"> </i> (800) 060-0730, (800) 060-0730</li>
-                                    <li> <i class="icon fa fa-clock"> </i>Mon-Sat 10:00pm - 7:00pm</li>
+                                    <li> <i class="icon fa fa-map-marker"> </i>420 Hy Vong, Quận 9, TP.HCM</li>
+                                    <li> <i class="icon fa fa-envelope"> </i> tranhang3726@gmail.com</li>
+                                    <li> <i class="icon fa fa-phone"> </i> 030702062000</li>
+                                    <li> <i class="icon fa fa-clock"> </i>Mỗi Ngày 9:00 - 22:00</li>
                                 </ul>
                             </article>
                         </aside>
@@ -27,19 +27,16 @@ function Footer() {
                             <ul class="list-unstyled">
                                 <li> <Link to ="lien-he">Liên Hệ</Link></li>
                                 <li> <a href="#">Tuyển Dụng</a></li>
-                                <li> <a href="#">Find a store</a></li>
-                                <li> <a href="#">Rules and terms</a></li>
-                                <li> <a href="#">Sitemap</a></li>
+                                <li> <a href="#">Hệ Thống Cửa Hàng</a></li>
                             </ul>
                         </aside>
                         <aside class="col-md col-6">
                             <h5 class="title">Chính Sách Cửa Hàng</h5>
                             <ul class="list-unstyled">
-                                <li> <a href="#">Contact us</a></li>
+                                <li> <a href="#">Giao Hàng</a></li>
                                 <li> <a href="#">Money refund</a></li>
-                                <li> <a href="#">Order status</a></li>
-                                <li> <a href="#">Shipping info</a></li>
-                                <li> <a href="#">Open dispute</a></li>
+                                <li> <a href="#">Đặt Hàng</a></li>
+                                <li> <a href="#">Ưu Đãi</a></li>
                             </ul>
                         </aside>
                         <aside class="col-md-4 col-12">
@@ -47,7 +44,7 @@ function Footer() {
                             
                             <form class="form-inline mb-3">
                                 <input type="text" placeholder="Email" class="form-control" name=""/>
-                                <button class="btn ml-2 btn-succes"> Subscribe</button>
+                                <button class="btn ml-2 btn-succes"> Đăng Kí</button>
                             </form>
                 
                         </aside>

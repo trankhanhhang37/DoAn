@@ -47,13 +47,13 @@ function SliderShow() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={require("../../../assets/images/banners/slide1.jpg")} className=" " alt="..." />
+                        <img src={require("../../../assets/images/banners/banner1.jpg")} className=" " alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src={require("../../../assets/images/banners/slide2.jpg")} className="" alt="..." />
+                        <img src={require("../../../assets/images/banners/banner2.jpg")} className="" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src={require("../../../assets/images/banners/slide2.jpg")} className="" alt="..." />
+                        <img src={require("../../../assets/images/banners/banner3.jpg")} className="" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

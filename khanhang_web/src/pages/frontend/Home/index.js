@@ -1,4 +1,6 @@
 import CategoryHome from "./CategoryHome";
+import PostHome from "./PostHome";
+import ProductHome from "./ProductHome";
 import SliderShow from "./SliderShow";
 
 function Home() {
@@ -17,9 +19,10 @@ function Home() {
         <section className="maincontent"> 
         <div className="row">
             <CategoryHome/>
-        <SliderShow/>
-
+             <SliderShow/>
+             <PostHome/>
         </div>
+            <ProductHome/>
 
         </section>
     );
